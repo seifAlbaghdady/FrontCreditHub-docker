@@ -1,0 +1,132 @@
+.course-card {
+  flex-basis: 200px;
+  flex-shrink: 0;
+  width: 200px;
+  height: 132px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.available-course {
+  border: 2px dashed #ffffff;
+  cursor: pointer;
+}
+
+.available-course:hover {
+  border: 2px dashed #d8d8d8;
+}
+
+/* Click over available course */
+.available-course:active {
+  border: 2px solid green;
+}
+
+.header {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.body {
+  width: 100%;
+  height: 60%;
+  /* Add a top and bottom border of color white */
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.course-code {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 3px 9px;
+}
+
+.course-credits {
+  border-radius: 5px;
+  width: 33px;
+  height: 18px;
+  margin: 3px 9px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.course-name {
+  font-size: 18px;
+  font-weight: light;
+  /* Noto Sans. Open Sans. */
+  font-family: "Noto Sans", sans-serif;
+  text-align: left;
+  padding: 3px 9px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  cursor: pointer;
+}
+
+.course-name:hover {
+  text-decoration: underline;
+}
+
+.course-group {
+  font-size: 12px;
+  text-align: left;
+  padding: 3px 9px;
+}
+
+.button {
+  background-color: #ececec;
+  border-radius: 5px;
+  width: 18px;
+  height: 18px;
+  margin: 3px 9px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button {
+  /* put it in the leftmost */
+  margin-left: auto;
+}
+
+.button:hover {
+  background-color: #d8d8d8;
+}
+
+.warning-icon {
+    /* make it at the left */
+    margin-right: auto;
+    margin-left: 10px;
+}

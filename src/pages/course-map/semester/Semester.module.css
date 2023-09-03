@@ -1,0 +1,80 @@
+.semester {
+    background-color: #EDF1F8;
+    width: 100%;
+    margin: 10px 0;
+    border-top-right-radius: 10px;
+}
+
+.semester-title-bar {
+    background-color: #F7C9B9;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-top-right-radius: inherit;
+
+}
+
+.semester-content {
+    width: 100%;
+    height: 160px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+}
+
+.semester-title-bar-left {
+    height: 100%;
+    color: black;
+    float: left;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.semester-title-bar-right {
+    height: 100%;
+    width: 5%;
+    background-color: #9C0D38;
+    color: white;
+    float: right;
+    padding: 0 98px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: inherit;
+
+}
+
+.semester-title-bar-credits-text, 
+.semester-season {
+    white-space: nowrap;
+}
+
+.semester-title-bar-arrow-icon {
+    margin-right: 12px;
+}
+
+.semester-title-bar-arrow-icon:hover {
+    cursor: pointer;
+}
+
+.semester-title-bar-arrow-icon:active {
+    transform: scale(0.9);
+}
+
+.available-courses-container {
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+    /* UI Properties */
+    
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

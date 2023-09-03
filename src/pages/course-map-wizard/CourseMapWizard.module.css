@@ -1,0 +1,7 @@
+.course-map {
+    cursor: pointer;
+}
+
+.course-map:hover {
+    text-decoration: underline;
+}

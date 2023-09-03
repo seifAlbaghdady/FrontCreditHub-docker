@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t stephengrider/docker-react -f Dockerfile.dev .
+  - docker build -t sisyphus/docker-frontend -f Dockerfile.dev .
 
 script:
-  - docker run stephengrider/docker-react npm run test -- --coverage
+  - docker run -e CI=true sisyphus/docker-frontend npm run test --coverage
